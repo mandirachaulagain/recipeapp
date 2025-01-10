@@ -1,0 +1,47 @@
+name: recipe_project
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using flutter pub publish. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Adds Cupertino icons for iOS-style icons.
+  cupertino_icons: ^1.0.8
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # Recommended linting rules for better coding practices.
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Ensures the Material Icons font is included.
+  uses-material-design: true
+
+  # Add assets (images for recipes) to your project.
+  #assets:
+    #- assets/images/Chicken_Curry.jpg       # Image for Chicken Curry recipe.
+    #- assets/images/Spaghetti.jpeg         # Image for Spaghetti recipe.
+    #- assets/images/italian_pasta.jpg      # Image for Italian Pasta recipe.
+    #- assets/images/korean_bbq.jpg         # Image for Korean BBQ recipe.
+    #- assets/images/mexican_tacos.jpeg      # Image for Mexican Tacos recipe.
+
+  # Note:
+  # - Each asset must be listed under the "assets" section.
+  # - Ensure the file names and paths match exactly as they are in your `assets/images` folder.
+  # - Use lower_snake_case for image file names for consistency.
+  # - After editing this file, run `flutter pub get` to update your project dependencies.
